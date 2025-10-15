@@ -1,0 +1,18 @@
+# Data schema
+columns:
+  fixed_acidity: float
+  volatile acidity: float
+  citric acid: float
+  residual sugar: float
+  chlorides: float
+  free sulfur dioxide: float
+  total sulfur dioxide: float
+  density: float
+  ph: float
+  sulphates: float
+  alcohol: float
+  quality: int
+
+
+TARGET_COLUMN: 
+  name: quality
