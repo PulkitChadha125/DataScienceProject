@@ -66,3 +66,146 @@ Source-Age: 0
 [2025-10-16 00:22:33,103]:INFO:common:created directory at: artifacts
 [2025-10-16 00:22:33,104]:INFO:common:created directory at: artifacts/data_validation
 [2025-10-16 00:22:33,139]:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+[2025-10-16 22:54:32,011]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 22:54:32,012]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 22:54:32,014]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 22:54:32,015]:INFO:common:created directory at: artifacts
+[2025-10-16 22:54:32,016]:INFO:common:created directory at: artifacts/data_transformation
+[2025-10-16 22:54:43,602]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 22:54:43,604]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 22:54:43,604]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 22:54:43,604]:INFO:common:created directory at: artifacts
+[2025-10-16 22:54:43,604]:INFO:common:created directory at: artifacts/data_transformation
+[2025-10-16 22:54:43,631]:INFO:215215251:Splitted data into trainning and test split
+[2025-10-16 22:54:43,631]:INFO:215215251:(1199, 12)
+[2025-10-16 22:54:43,631]:INFO:215215251:(400, 12)
+[2025-10-16 23:06:56,277]:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<
+[2025-10-16 23:06:56,277]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:06:56,277]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:06:56,277]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:06:56,277]:INFO:common:created directory at: artifacts
+[2025-10-16 23:06:56,277]:INFO:common:created directory at: artifacts/data_ingestion
+[2025-10-16 23:06:56,277]:INFO:data_ingestion:file already exists of size
+[2025-10-16 23:06:56,323]:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-10-16 23:06:56,323]:INFO:main:>>>>>> stage Data Validation stage started <<<<<<
+[2025-10-16 23:06:56,324]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:06:56,324]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:06:56,325]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:06:56,325]:INFO:common:created directory at: artifacts
+[2025-10-16 23:06:56,326]:INFO:common:created directory at: artifacts/data_validation
+[2025-10-16 23:06:56,358]:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+[2025-10-16 23:06:56,358]:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<
+[2025-10-16 23:06:56,359]:INFO:data_transformation_pipeline:>>>>>> stage Data Transformation stage skipped <<<<<<
+[2025-10-16 23:06:56,359]:ERROR:main:Data validation failed
+Traceback (most recent call last):
+  File "D:\Desktop\MLOPS\DataScienceProject\main.py", line 31, in <module>
+    data_transformation.initiate_data_transformation()
+  File "D:\Desktop\MLOPS\DataScienceProject\src\datascienceproject\pipeline\data_transformation_pipeline.py", line 27, in initiate_data_transformation
+    raise e
+  File "D:\Desktop\MLOPS\DataScienceProject\src\datascienceproject\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise Exception("Data validation failed")
+Exception: Data validation failed
+[2025-10-16 23:08:54,546]:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<
+[2025-10-16 23:08:54,546]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:08:54,546]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:08:54,546]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:08:54,546]:INFO:common:created directory at: artifacts
+[2025-10-16 23:08:54,546]:INFO:common:created directory at: artifacts/data_ingestion
+[2025-10-16 23:08:54,546]:INFO:data_ingestion:file already exists of size
+[2025-10-16 23:08:54,546]:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-10-16 23:08:54,546]:INFO:main:>>>>>> stage Data Validation stage started <<<<<<
+[2025-10-16 23:08:54,546]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:08:54,555]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:08:54,556]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:08:54,556]:INFO:common:created directory at: artifacts
+[2025-10-16 23:08:54,556]:INFO:common:created directory at: artifacts/data_validation
+[2025-10-16 23:08:54,590]:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+[2025-10-16 23:08:54,591]:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<
+[2025-10-16 23:08:54,592]:INFO:data_transformation_pipeline:>>>>>> stage Data Transformation stage skipped <<<<<<
+[2025-10-16 23:08:54,593]:ERROR:main:Data validation failed
+Traceback (most recent call last):
+  File "D:\Desktop\MLOPS\DataScienceProject\main.py", line 31, in <module>
+    data_transformation.initiate_data_transformation()
+  File "D:\Desktop\MLOPS\DataScienceProject\src\datascienceproject\pipeline\data_transformation_pipeline.py", line 27, in initiate_data_transformation
+    raise e
+  File "D:\Desktop\MLOPS\DataScienceProject\src\datascienceproject\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise Exception("Data validation failed")
+Exception: Data validation failed
+[2025-10-16 23:09:24,905]:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<
+[2025-10-16 23:09:24,906]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:09:24,906]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:09:24,906]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:09:24,906]:INFO:common:created directory at: artifacts
+[2025-10-16 23:09:24,906]:INFO:common:created directory at: artifacts/data_ingestion
+[2025-10-16 23:09:24,906]:INFO:data_ingestion:file already exists of size
+[2025-10-16 23:09:24,906]:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-10-16 23:09:24,906]:INFO:main:>>>>>> stage Data Validation stage started <<<<<<
+[2025-10-16 23:09:24,913]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:09:24,915]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:09:24,916]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:09:24,917]:INFO:common:created directory at: artifacts
+[2025-10-16 23:09:24,917]:INFO:common:created directory at: artifacts/data_validation
+[2025-10-16 23:09:24,955]:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+[2025-10-16 23:09:24,955]:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<
+[2025-10-16 23:09:24,957]:INFO:data_transformation_pipeline:>>>>>> stage Data Transformation stage skipped <<<<<<
+[2025-10-16 23:09:24,957]:ERROR:main:Data transformation failed
+Traceback (most recent call last):
+  File "D:\Desktop\MLOPS\DataScienceProject\main.py", line 31, in <module>
+    data_transformation.initiate_data_transformation()
+  File "D:\Desktop\MLOPS\DataScienceProject\src\datascienceproject\pipeline\data_transformation_pipeline.py", line 27, in initiate_data_transformation
+    raise e
+  File "D:\Desktop\MLOPS\DataScienceProject\src\datascienceproject\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise Exception("Data transformation failed")
+Exception: Data transformation failed
+[2025-10-16 23:10:33,389]:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<
+[2025-10-16 23:10:33,392]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:10:33,392]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:10:33,392]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:10:33,392]:INFO:common:created directory at: artifacts
+[2025-10-16 23:10:33,392]:INFO:common:created directory at: artifacts/data_ingestion
+[2025-10-16 23:10:33,392]:INFO:data_ingestion:file already exists of size
+[2025-10-16 23:10:33,392]:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-10-16 23:10:33,392]:INFO:main:>>>>>> stage Data Validation stage started <<<<<<
+[2025-10-16 23:10:33,392]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:10:33,398]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:10:33,398]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:10:33,399]:INFO:common:created directory at: artifacts
+[2025-10-16 23:10:33,399]:INFO:common:created directory at: artifacts/data_validation
+[2025-10-16 23:10:33,434]:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+[2025-10-16 23:10:33,434]:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<
+[2025-10-16 23:10:33,435]:INFO:data_transformation_pipeline:>>>>>> stage Data Transformation stage skipped <<<<<<
+[2025-10-16 23:10:33,435]:ERROR:main:Data transformation failed
+Traceback (most recent call last):
+  File "D:\Desktop\MLOPS\DataScienceProject\main.py", line 31, in <module>
+    data_transformation.initiate_data_transformation()
+  File "D:\Desktop\MLOPS\DataScienceProject\src\datascienceproject\pipeline\data_transformation_pipeline.py", line 27, in initiate_data_transformation
+    raise e
+  File "D:\Desktop\MLOPS\DataScienceProject\src\datascienceproject\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise Exception("Data transformation failed")
+Exception: Data transformation failed
+[2025-10-16 23:10:59,301]:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<
+[2025-10-16 23:10:59,301]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:10:59,301]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:10:59,301]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:10:59,301]:INFO:common:created directory at: artifacts
+[2025-10-16 23:10:59,301]:INFO:common:created directory at: artifacts/data_ingestion
+[2025-10-16 23:10:59,301]:INFO:data_ingestion:file already exists of size
+[2025-10-16 23:10:59,301]:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-10-16 23:10:59,301]:INFO:main:>>>>>> stage Data Validation stage started <<<<<<
+[2025-10-16 23:10:59,313]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:10:59,313]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:10:59,314]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:10:59,314]:INFO:common:created directory at: artifacts
+[2025-10-16 23:10:59,314]:INFO:common:created directory at: artifacts/data_validation
+[2025-10-16 23:10:59,345]:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+[2025-10-16 23:10:59,345]:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<
+[2025-10-16 23:10:59,345]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-16 23:10:59,345]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-16 23:10:59,345]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-16 23:10:59,345]:INFO:common:created directory at: artifacts
+[2025-10-16 23:10:59,345]:INFO:common:created directory at: artifacts/data_transformation
+[2025-10-16 23:10:59,362]:INFO:data_tranformation:Splitted data into trainning and test split
+[2025-10-16 23:10:59,362]:INFO:data_tranformation:(1199, 12)
+[2025-10-16 23:10:59,362]:INFO:data_tranformation:(400, 12)
+[2025-10-16 23:10:59,362]:INFO:data_transformation_pipeline:>>>>>> stage Data Transformation stage completed <<<<<<
+[2025-10-16 23:10:59,362]:INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
