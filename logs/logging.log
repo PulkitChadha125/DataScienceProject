@@ -396,3 +396,55 @@ Exception: Data transformation failed
 [2025-10-17 23:24:18,689]:INFO:common:created directory at: artifacts/model_evaluation
 [2025-10-17 23:24:20,267]:INFO:common:json file: artifacts\model_evaluation\metrics.json saved successfully
 [2025-10-17 23:24:29,277]:INFO:main:>>>>>> stage Model Evaluation stage completed <<<<<<
+[2025-10-17 23:51:54,926]:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.161:5000
+[2025-10-17 23:51:54,926]:INFO:_internal:[33mPress CTRL+C to quit[0m
+[2025-10-17 23:52:04,213]:INFO:_internal:127.0.0.1 - - [17/Oct/2025 23:52:04] "GET / HTTP/1.1" 200 -
+[2025-10-17 23:52:04,550]:INFO:_internal:127.0.0.1 - - [17/Oct/2025 23:52:04] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+[2025-10-17 23:52:04,691]:INFO:_internal:127.0.0.1 - - [17/Oct/2025 23:52:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-17 23:52:39,567]:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<
+[2025-10-17 23:52:39,569]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-17 23:52:39,570]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-17 23:52:39,571]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-17 23:52:39,572]:INFO:common:created directory at: artifacts
+[2025-10-17 23:52:39,573]:INFO:common:created directory at: artifacts/data_ingestion
+[2025-10-17 23:52:39,573]:INFO:data_ingestion:file already exists of size
+[2025-10-17 23:52:39,574]:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-10-17 23:52:39,574]:INFO:main:>>>>>> stage Data Validation stage started <<<<<<
+[2025-10-17 23:52:39,576]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-17 23:52:39,578]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-17 23:52:39,578]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-17 23:52:39,579]:INFO:common:created directory at: artifacts
+[2025-10-17 23:52:39,579]:INFO:common:created directory at: artifacts/data_validation
+[2025-10-17 23:52:39,615]:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+[2025-10-17 23:52:39,615]:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<
+[2025-10-17 23:52:39,615]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-17 23:52:39,615]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-17 23:52:39,615]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-17 23:52:39,615]:INFO:common:created directory at: artifacts
+[2025-10-17 23:52:39,615]:INFO:common:created directory at: artifacts/data_transformation
+[2025-10-17 23:52:39,636]:INFO:data_tranformation:Splitted data into trainning and test split
+[2025-10-17 23:52:39,637]:INFO:data_tranformation:(1199, 12)
+[2025-10-17 23:52:39,637]:INFO:data_tranformation:(400, 12)
+[2025-10-17 23:52:39,638]:INFO:data_transformation_pipeline:>>>>>> stage Data Transformation stage completed <<<<<<
+[2025-10-17 23:52:39,638]:INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+[2025-10-17 23:52:39,638]:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<
+[2025-10-17 23:52:39,640]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-17 23:52:39,640]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-17 23:52:39,641]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-17 23:52:39,641]:INFO:common:created directory at: artifacts
+[2025-10-17 23:52:39,641]:INFO:common:created directory at: artifacts/model_trainer
+[2025-10-17 23:52:39,698]:INFO:model_trainer:Model is trained and saved at artifacts/model_trainer
+[2025-10-17 23:52:39,698]:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+[2025-10-17 23:52:39,699]:INFO:main:>>>>>> stage Model Evaluation stage started <<<<<<
+[2025-10-17 23:52:39,700]:INFO:common:yaml file: config\config.yaml loaded successfully
+[2025-10-17 23:52:39,700]:INFO:common:yaml file: params.yaml loaded successfully
+[2025-10-17 23:52:39,701]:INFO:common:yaml file: schema.yaml loaded successfully
+[2025-10-17 23:52:39,701]:INFO:common:created directory at: artifacts
+[2025-10-17 23:52:39,701]:INFO:common:created directory at: artifacts/model_evaluation
+[2025-10-17 23:52:41,300]:INFO:common:json file: artifacts\model_evaluation\metrics.json saved successfully
+[2025-10-17 23:52:49,845]:INFO:main:>>>>>> stage Model Evaluation stage completed <<<<<<
+[2025-10-17 23:52:50,151]:INFO:_internal:127.0.0.1 - - [17/Oct/2025 23:52:50] "GET /train HTTP/1.1" 200 -
+[2025-10-17 23:54:29,101]:INFO:_internal:127.0.0.1 - - [17/Oct/2025 23:54:29] "POST /predict HTTP/1.1" 200 -
