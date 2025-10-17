@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Desktop/MLOPS/DataScienceProject/mlruns/0/5f8f67efbca842798543c5ed3952a8d7/artifacts
+end_time: 1760723355162
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f8f67efbca842798543c5ed3952a8d7
+run_name: omniscient-sheep-320
+run_uuid: 5f8f67efbca842798543c5ed3952a8d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760723352803
+status: 3
+tags: []
+user_id: Pulkit
